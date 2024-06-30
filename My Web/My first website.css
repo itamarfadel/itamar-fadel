@@ -1,0 +1,85 @@
+body{
+align-items: center;    
+background-image: url("https://cdn.pixabay.com/photo/2023/04/04/00/51/sunset-7898136_640.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+margin:0;
+padding:0;
+}
+header {
+    background-color: #333; /* צבע הרקע של התפריט */
+    color: white; /* צבע הטקסט בתפריט */
+    padding: 10px; /* רווח מסביב לתפריט */
+    text-align: left; /* מיקום הטקסט במרכז */
+   
+}
+
+
+header .top-row {
+    font-size: 32px; /* גודל הטקסט בשורה העליונה */
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px; /* רווח מתחת לשורה העליונה */
+    justify-content: center;
+}
+#under{
+    color:whitesmoke;
+}
+img{
+    width: 330px; height: 400px;
+ 
+}
+#main_title{
+    color: whitesmoke;
+    font-family: cursive;
+}
+p{
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+#opening{
+    text-align: center;
+    flex-direction: row;
+}
+/*.title1:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }*/
+  #story{
+    font-size:26px;
+  }
+#links{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 435px;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+}  
+#opening #links .box{
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 270px;
+height: 192px;
+background: whitesmoke;
+border: 2px;
+border-radius: 16px;
+align-items: center;
+font-size: 20px;
+font-weight: bold;
+text-decoration: none;
+margin: auto;
+transition: all 0.3s ease-in-out; 
+}
+
+#opening #links .box:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);  
+}
+
+#my_name{
+    font-size: 32px;
+}
+

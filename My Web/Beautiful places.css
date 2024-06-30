@@ -1,0 +1,18 @@
+body{
+   
+    background-image: url( " https://cdn.pixabay.com/photo/2016/03/27/07/32/clouds-1282314_640.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+body img{
+    width: 400px; height: 300px;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+body p{
+    font-family: Arial, Helvetica, sans-serif;
+}

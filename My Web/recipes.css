@@ -1,0 +1,32 @@
+
+body{
+    text-align: center;
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+color: whitesmoke;
+}
+h1{
+    color: floralwhite;
+    font-size: xx-large;
+}
+ul.list{
+    color: whitesmoke;
+    font-size: 32px;
+   
+
+}
+li p{
+    color: whitesmoke;
+  
+}
+
+ul{
+    list-style-type: none;
+}
+li img{
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
